@@ -9,7 +9,7 @@ sentences = str(input("Enter the sentences"))
 
 tokens = Tokenizer()
 tokens.fit_on_texts(sentences)
-wordİndex = tokens.word_index
-print(wordİndex)
+wordIndex = tokens.word_index
+print(wordIndex)
 
 
